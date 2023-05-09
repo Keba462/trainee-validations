@@ -1,5 +1,5 @@
 from django.test import TestCase
-from trainee_validations.form_validations.community_engagement_validator import CommunityEngagementValidationForm
+from trainee_validations.form_validators.community_engagement_validator import CommunityEngagementValidationForm
 from edc_constants.constants import YES
 from django.core.exceptions import ValidationError
 

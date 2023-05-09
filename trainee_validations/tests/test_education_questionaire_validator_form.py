@@ -1,5 +1,5 @@
 from django.test import TestCase
-from trainee_validations.form_validations.education_questionaire_validator import EducationQuestionaireValidationForm
+from trainee_validations.form_validators.education_questionaire_validator import EducationQuestionaireValidationForm
 from django.core.exceptions import ValidationError
 from edc_constants.constants import YES,NO
 

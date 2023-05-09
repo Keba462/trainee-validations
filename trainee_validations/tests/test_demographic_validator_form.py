@@ -1,5 +1,5 @@
 from django.test import TestCase
-from trainee_validations.form_validations.demographic_validator import DemographicValidationForm
+from trainee_validations.form_validators.demographic_validator import DemographicValidationForm
 from edc_constants.constants import FEMALE
 from django.core.exceptions import ValidationError
 

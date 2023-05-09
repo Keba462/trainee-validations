@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.core.exceptions import ValidationError
 from edc_constants.constants import NO, YES
 
-from trainee_validations.form_validations.subject_screening_validator import SubjectScreeningFormValidator
+from trainee_validations.form_validators.subject_screening_validator import SubjectScreeningFormValidator
 
 
 
