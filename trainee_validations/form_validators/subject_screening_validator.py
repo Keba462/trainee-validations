@@ -1,5 +1,5 @@
 from edc_form_validators import FormValidator
-from edc_constants.constants import NO, YES
+from edc_constants.constants import NO, YES,NOT_APPLICABLE
 
 
 
@@ -21,7 +21,7 @@ class SubjectScreeningFormValidator(FormValidator):
        )
        
        self.not_applicable(
-           NO,
+           NOT_APPLICABLE,
            field='legal_marriage',
            field_applicable="marriage_certificate"
        )
@@ -38,7 +38,7 @@ class SubjectScreeningFormValidator(FormValidator):
        )
 
        self.not_applicable(
-           NO,
+           YES,
            field='literate',
            field_applicable="literate_witness"
        )
